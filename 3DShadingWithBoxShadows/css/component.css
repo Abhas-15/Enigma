@@ -1,17 +1,14 @@
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body {
-	background-color: rgb(24, 29, 73);
-	font-family: 'Lato', Arial, sans-serif;
-	color: #fff;
-}
+
 
 .wrapper {
-	margin: 0 auto 100px auto;
-	max-width: 960px;
+	margin-left: 11%;
+	max-width: auto;
+	
 }
 
-.stage {
+.solar {
 	list-style: none;
 	padding: 0;
 }
@@ -21,7 +18,7 @@ Build the scene and rotate on hover
 **************************************/
 
 .scene {
-	width: 260px;
+	width: 300px;
 	height: 400px;
 	margin: 30px;
 	float: left;
@@ -30,9 +27,9 @@ Build the scene and rotate on hover
 	perspective: 1000px;
 }
 
-.movie {
+.universe {
 	width: 260px;
-	height: 400px;
+	height: 500px;
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -44,7 +41,7 @@ Build the scene and rotate on hover
 	transition: transform 350ms;
 }
 
-.movie:hover {
+.universe:hover {
 	-webkit-transform: rotateY(-78deg) translateZ(20px);
 	-moz-transform: rotateY(-78deg) translateZ(20px);
 	transform: rotateY(-78deg) translateZ(20px);
@@ -54,8 +51,8 @@ Build the scene and rotate on hover
 Transform and style the two planes
 **************************************/
 
-.movie .poster, 
-.movie .info {
+.universe .galaxy, 
+.universe .info {
 	position: absolute;
 	width: 260px;
 	height: 400px;
@@ -65,7 +62,7 @@ Transform and style the two planes
 	backface-visibility: hidden;
 }
 
-.movie .poster  {
+.universe .galaxy  {
 	-webkit-transform: translateZ(130px);
 	-moz-transform: translateZ(130px);
 	transform: translateZ(130px);
@@ -73,7 +70,7 @@ Transform and style the two planes
 	background-repeat: no-repeat;
 }
 
-.movie .info {
+.universe .info {
 	-webkit-transform: rotateY(90deg) translateZ(130px);
 	-moz-transform: rotateY(90deg) translateZ(130px);
 	transform: rotateY(90deg) translateZ(130px);
@@ -85,13 +82,13 @@ Transform and style the two planes
 Shadow beneath the 3D object
 **************************************/
 
-.csstransforms3d .movie::after {
+.csstransforms3d .universe::after {
 	content: '';
 	width: 260px;
 	height: 260px;
 	position: absolute;
 	bottom: 0;
-	box-shadow: 0 30px 50px rgba(0,0,0,0.3);
+	box-shadow: 0 30px 50px rgba(46, 224, 195, 0.3);
 	-webkit-transform-origin: 100% 100%;
 	-moz-transform-origin: 100% 100%;
 	transform-origin: 100% 100%;
@@ -103,12 +100,12 @@ Shadow beneath the 3D object
 	transition: box-shadow 350ms;
 }
 
-.csstransforms3d .movie:hover::after {
+.csstransforms3d .universe:hover::after {
 	box-shadow: 20px -5px 50px rgba(0,0,0,0.3);
 }
 
 /*************************************
-Movie information
+universe information
 **************************************/
 
 .info header {
@@ -144,47 +141,50 @@ Movie information
 Generate "lighting" using box shadows
 **************************************/
 
-.movie .poster,
-.movie .info,
-.movie .info header {
+.universe .galaxy,
+.universe .info,
+.universe .info header {
 	-webkit-transition: box-shadow 350ms;
 	-moz-transition: box-shadow 350ms;
 	transition: box-shadow 350ms;
 }
 
-.csstransforms3d .movie .poster {
+.csstransforms3d .universe .galaxy {
 	box-shadow: inset 0px 0px 40px rgba(255,255,255,0);
 }
 
-.csstransforms3d .movie:hover .poster {
-	box-shadow: inset 300px 0px 40px rgba(255,255,255,0.8);
+.csstransforms3d .universe:hover .galaxy {
+	box-shadow: inset 300px 0px 40px rgba(255, 255, 255, 0.8);
 }
 
-.csstransforms3d .movie .info, 
-.csstransforms3d .movie .info header {
+.csstransforms3d .universe .info, 
+.csstransforms3d .universe .info header {
 	box-shadow: inset -300px 0px 40px rgba(0,0,0,0.5);
 }
 
-.csstransforms3d .movie:hover .info, 
-.csstransforms3d .movie:hover .info header {
+.csstransforms3d .universe:hover .info, 
+.csstransforms3d .universe:hover .info header {
 	box-shadow: inset 0px 0px 40px rgba(0,0,0,0);
 }
 
 /*************************************
-Posters and still images
+galaxys and still images
 **************************************/
 
-.scene:nth-child(1) .movie .poster {
+.scene:nth-child(1) .universe .galaxy {
   background-image: url(../img/blackHole.jpg);
 }
 
-.scene:nth-child(2) .poster {
+.scene:nth-child(2) .galaxy {
   background-image: url(../img/galaxy.jpg);
 }
 
-.scene:nth-child(3) .poster {
+.scene:nth-child(3) .galaxy {
   background-image: url(../img/universe.jpg);
 }
+.scene:nth-child(4) .galaxy {
+	background-image: url(../img/cool.jpg);
+  }
 
 .scene:nth-child(1) .info header {
 	background-image: url(../img/blackHole1.jpg);
@@ -197,12 +197,15 @@ Posters and still images
 .scene:nth-child(3) .info header {
 	background-image: url(../img/universe1.jpg);
 }
+.scene:nth-child(4) .info header {
+	background-image: url(../img/champ.jpg);
+}
 
 /*************************************
 Fallback
 **************************************/
-.no-csstransforms3d .movie .poster, 
-.no-csstransforms3d .movie .info {
+.no-csstransforms3d .universe .galaxy, 
+.no-csstransforms3d .universe .info {
 	position: relative;
 }
 
