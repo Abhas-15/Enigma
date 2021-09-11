@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+    grid-column: 1 / span 12;
+    margin: 1px;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    background-color: rgba(9, 23, 49, 0.623);
+  }
+  
+  li a {
+    display: block;
+    color: rgb(248, 217, 243);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgba(183, 159, 240, 0.144);
+  }
+  
+  .active {
+    background-color: #7b5a8160;
+  }
+  
