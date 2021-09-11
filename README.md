@@ -1,6 +1,10 @@
 # Enigma
 Enigma: A one-stop destination to learn, explore and fall in love with the Universe!
 
+![Screenshot from 2021-09-11 23-15-45](https://user-images.githubusercontent.com/75534568/132956993-a09f7bbe-1ed0-4af3-940c-3e8fbe2481e6.png)
+![Screenshot from 2021-09-11 23-17-06](https://user-images.githubusercontent.com/75534568/132957059-91440a24-e97b-4ec7-bc41-54be6dc32a6e.png)
+
+
 # Inspiration
 Have you ever wanted to land upon a website that not only answers all your puzzling questions about space but also adds new dimensions to your understanding of the Universe? There is an infinite pool of knowledge waiting to be passed down. What if there was a fun and enchanting way of learning physics, chemistry, astronomy, and mathematics? Well, we are here to your rescue. 🚀
 We are as passionate as you to get educated most excitingly and interactively, and hence we have built this website. Enigma provides you with an exhilarating experience through the mysteries of the Universe, all while making you more curious and hungry for more!
