@@ -4,37 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/footer.css" />
     <link rel="stylesheet" href="../styles/aboutUs.css" />
     <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/footer_two.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>About</title>
   </head>
   <body>
-    <ul>
-      <li><a class="active" href="#">Home</a></li>
-      <li><a href="./pages/Galaxy.html">Archive</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">About Us</a></li>
+    <ul class="lists">
+      <li><a class="active" href="../index.html">Home</a></li>
+      <li><a href="Galaxy.html">Editorial</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="aboutUs.html">About Us</a></li>
     </ul>
     <div class="about-section">
       <h1>About Us</h1>
-      <p>Some text about who we are and what we do.</p>
-      <p>
-        lorem ipsum loremlorrrrrrrrrrrrrrrrrrrrrrrrrreeeeeeeeeeeeeeeeeeeeeeeeeeemmmmmmmmmmmmmmmmmm
-      </p>
+      <p>We are aspiring developers trying our hands on different technologies. <br> We love to code and learn. </p>
+      <p>We love to work on various websites as it gives us a self reward of finishing a project.</p>
+      
     </div>
 
     <h2 style="text-align: center">Our Team</h2>
     <div class="row">
-      <div class="column">
+      <div class="column one">
         <div class="card">
-          <img src="" alt="abhas" style="width: 100%; height:100%"  />
+
+          <img src="../assets/abhas1.jpg"  alt="abhas" style="width: 100%" class="one"/>
+
+         
           <div class="container">
             <h2>Abhas Abhirup</h2>
             <p class="title">Developer and Content Writer</p>
-            <p>lorem ipsum ipsum lorem.</p>
-            <p>abhas@example.com</p>
+            <p class="title1">CSE Undergraduate At NIT Rourkela</p>
+            <p class="title2">abhas@example.com</p>
            
           </div>
         </div>
@@ -42,16 +45,75 @@
 
       <div class="column">
         <div class="card">
-          <img src="../assets/swati.jpg" alt="swati" style="width: 100%" />
+          <img src="../assets/swati.jpg" alt="swati" style="width: 100%" class="one"/>
           <div class="container">
             <h2>Swatishree Mahapatra</h2>
             <p class="title">Developer and Designer</p>
-            <p>lorem ipsum ipsum lorem.</p>
-            <p>swati@example.com</p>
+            <p class="title1">CSE Undergraduate At NIT Rourkela</p>
+            <p class="title2">swati@example.com</p>
           </div>
         </div>
       </div>
     </div>
+
+
+    <footer class="footer-distributed" id="contact">
+      <div class="footer-left">
+        <h3>ENIGMA</h3>
+
+        <p class="footer-links">
+          <a href="../index.html" class="link-1">Home</a>
+
+          <a href="Galaxy.html">Editorial</a>
+
+
+          <a href="#contact">Contact</a>
+
+
+          <a href="#">About</a>
+
+          
+        </p>
+
+        <p class="footer-company-name">
+          ENIGMA © 2021 | All rights reserved | Terms Of Service | Privacy
+        </p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>The Wizard's Avenue</span> Berhampur, Odisha</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+91 93482 57667 </p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@enigma.com">support@enigma.com</a></p>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About the developers</span>
+          <ol>
+            <li>Abhas Abhirup</li>
+            <li>Swatishree Mahapatra</li>
+          </ol>
+        </p>
+
+        <div class="footer-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+      </div>
+    </footer>
 
   </body>
 </html>
