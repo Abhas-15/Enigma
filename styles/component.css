@@ -3,7 +3,7 @@
 
 
 .wrapper {
-	margin-left: 11%;
+	margin-left: 20%;
 	max-width: auto;
 	
 }
@@ -179,10 +179,8 @@ galaxys and still images
   background-image: url(../assets/galaxy.jpg);
 }
 
+
 .scene:nth-child(3) .galaxy {
-  background-image: url(../assets/universe.jpg);
-}
-.scene:nth-child(4) .galaxy {
 	background-image: url(../assets/cool.jpg);
   }
 
@@ -194,10 +192,8 @@ galaxys and still images
 	background-image: url(../assets/galaxy1.jpg);
 }
 
+
 .scene:nth-child(3) .info header {
-	background-image: url(../assets/universe1.jpg);
-}
-.scene:nth-child(4) .info header {
 	background-image: url(../assets/champ.jpg);
 }
 

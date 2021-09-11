@@ -110,7 +110,7 @@ li a:hover:not(.active) {
   transition: color 0.5s, border-bottom 4s;
 }
 .nav-menu li a:hover{
-  color: rgb(54, 30, 30);
+  color: rgb(199, 136, 136);
   border-bottom: 1px solid black;
 }
 
@@ -274,4 +274,20 @@ color: black;
 }
 .sticky div:nth-child(2){
   background: #98f57a;
+}
+
+
+
+
+
+
+
+
+.card a{
+  text-decoration: none;
+  color: rgb(175, 245, 233);
+}
+
+.card a:hover{
+  color:  rgb(247, 236, 248);
 }
