@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 .animated-grid {
   height: 85vh;
   margin-bottom: 200px;
-
+  font-family: 'Source Sans Pro', sans-serif;
   display: grid;
   gap: 1rem;
 
@@ -32,7 +33,8 @@
 }
 
 .card {
-  background-color: rgb(21, 94, 60);
+  
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);  
   animation: cardEntrance 700ms ease-out;
   animation-fill-mode: backwards;
 }
@@ -89,20 +91,4 @@
   grid-area: 🌟;
   animation-delay: calc(23 * var(--stagger-delay));
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

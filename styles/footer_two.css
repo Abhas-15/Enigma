@@ -1,6 +1,6 @@
 
 .footer-distributed{
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 80%;
     margin-top: 150px;
@@ -80,7 +80,6 @@
 .footer-distributed .footer-center i.fa-envelope{
 	font-size: 17px;
 	line-height: 38px;
-	
 }
 
 .footer-distributed .footer-center p{
@@ -177,7 +176,4 @@
 		margin-left: 0;
 	}
 
-}
-.footer-right{
-	margin-top: (-50px);
 }

@@ -172,33 +172,33 @@ galaxys and still images
 **************************************/
 
 .scene:nth-child(1) .universe .galaxy {
-  background-image: url(../img/blackHole.jpg);
+  background-image: url(../assets/blackHole.jpg);
 }
 
 .scene:nth-child(2) .galaxy {
-  background-image: url(../img/galaxy.jpg);
+  background-image: url(../assets/galaxy.jpg);
 }
 
 .scene:nth-child(3) .galaxy {
-  background-image: url(../img/universe.jpg);
+  background-image: url(../assets/universe.jpg);
 }
 .scene:nth-child(4) .galaxy {
-	background-image: url(../img/cool.jpg);
+	background-image: url(../assets/cool.jpg);
   }
 
 .scene:nth-child(1) .info header {
-	background-image: url(../img/blackHole1.jpg);
+	background-image: url(../assets/blackHole1.jpg);
 }
 
 .scene:nth-child(2) .info header {
-	background-image: url(../img/galaxy1.jpg);
+	background-image: url(../assets/galaxy1.jpg);
 }
 
 .scene:nth-child(3) .info header {
-	background-image: url(../img/universe1.jpg);
+	background-image: url(../assets/universe1.jpg);
 }
 .scene:nth-child(4) .info header {
-	background-image: url(../img/champ.jpg);
+	background-image: url(../assets/champ.jpg);
 }
 
 /*************************************
